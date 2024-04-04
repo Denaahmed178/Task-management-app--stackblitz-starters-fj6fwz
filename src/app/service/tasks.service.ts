@@ -13,6 +13,7 @@ export class TasksService {
       this.tasks = JSON.parse(storedTasks);
     } else {
       this.tasks = [
+        // default task 
         {
           name: 'first task',
           description: ' ',
